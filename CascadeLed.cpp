@@ -1,5 +1,5 @@
 #include <Adafruit_NeoPixel.h>
-#include <ArrayConstants.h>  // WARNING: check these constants before compiling, it may need changing between sketches
+#include "ArrayConstants.h"  // WARNING: check these constants before compiling, it may need changing between sketches
 #include "CascadeLed.h"
 
 CascadeLed::CascadeLed(Adafruit_NeoPixel *strip, byte (*pix)[MAXROW][MAXCOL], byte maxrow, byte maxcol, byte red, byte green, byte blue, long freq, long freqoff)
